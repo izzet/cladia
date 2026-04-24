@@ -1,0 +1,7 @@
+[submodule "dfanalyzer"]
+	path = dfanalyzer
+	url = https://github.com/izzet/dfanalyzer.git
+[submodule "dlio_benchmark"]
+	path = dlio_benchmark
+	url = https://github.com/izzet/dlio-benchmark.git
+	branch = cladia
