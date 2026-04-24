@@ -12,8 +12,22 @@ wheels/
 .ruff_cache/
 
 # Generated artifacts
-globals/
-results/
+globals/**
+!globals/.gitkeep
+!globals/epoch/
+!globals/epoch/.gitkeep
+!globals/epoch/datasets/
+!globals/epoch/datasets/.gitkeep
+!globals/epoch/models/
+!globals/epoch/models/.gitkeep
+results/**
+!results/.gitkeep
+!results/repro/
+!results/repro/.gitkeep
+!results/repro_compare/
+!results/repro_compare/.gitkeep
+!results/repro_analysis_outputs/
+!results/repro_analysis_outputs/.gitkeep
 logs/
 outputs/
 tmp/
